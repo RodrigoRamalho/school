@@ -3,12 +3,15 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Institution extends Model
 {
-	protected $table = 'institutions';
+	use SoftDeletes;
+    
+    protected $table = 'institutions';
 
     protected $fillable = [
     	'name'
-    ]
+    ];
 }

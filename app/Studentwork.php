@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Studentwork extends Model
 {
+    use SoftDeletes;
+    
     protected $table = 'studentworks';
 
     protected $fillable = [
@@ -17,5 +20,5 @@ class Studentwork extends Model
     	'counter',
     	'percentage_counter',
     	'status'
-    ]
+    ];
 }

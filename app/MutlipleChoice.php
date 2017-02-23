@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class MutlipleChoice extends Model
 {
+    use SoftDeletes;
+    
     protected $table = 'mutliple_choices';
 
     protected $fillable = [
@@ -13,5 +16,5 @@ class MutlipleChoice extends Model
     	'question',
     	'choices',
     	'correction'
-    ]
+    ];
 }
