@@ -8,12 +8,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class TextWithBlank extends Model
 {
     use SoftDeletes;
-    
+
     protected $table = 'texts_with_blanks';
 
     protected $fillable = [
-    	'exercise_id',
-    	'question',
-    	'correction'
+        'exercise_id',
+        'question',
+        'correction',
     ];
 }

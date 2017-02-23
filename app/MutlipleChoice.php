@@ -8,13 +8,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class MutlipleChoice extends Model
 {
     use SoftDeletes;
-    
+
     protected $table = 'mutliple_choices';
 
     protected $fillable = [
-    	'exercise_id',
-    	'question',
-    	'choices',
-    	'correction'
+        'exercise_id',
+        'question',
+        'choices',
+        'correction',
     ];
 }

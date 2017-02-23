@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Category extends Model
 {
-	use SoftDeletes;
+    use SoftDeletes;
 
     protected $table = 'categories';
 
     protected $fillable = [
-    	'name',
-    	'year_subject_id'
+        'name',
+        'year_subject_id',
     ];
 }
