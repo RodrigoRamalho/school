@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Theme extends Model
 {
     use SoftDeletes;
-    
+
     protected $table = 'themes';
 
     protected $fillable = [
-    	'name',
-    	'year_subject_id'
+        'name',
+        'year_subject_id',
     ];
 }

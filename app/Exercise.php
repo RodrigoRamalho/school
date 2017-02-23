@@ -7,16 +7,16 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Exercise extends Model
 {
-	use SoftDeletes;
-    
+    use SoftDeletes;
+
     protected $table = 'exercises';
 
     protected $fillable = [
-    	'theme_id',
-    	'type_id',
-    	'user_id',
-    	'name',
-    	'source',
-    	'statement'
+        'theme_id',
+        'type_id',
+        'user_id',
+        'name',
+        'source',
+        'statement',
     ];
 }

@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Institution extends Model
 {
-	use SoftDeletes;
-    
+    use SoftDeletes;
+
     protected $table = 'institutions';
 
     protected $fillable = [
-    	'name'
+        'name',
     ];
 }

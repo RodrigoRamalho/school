@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class ExerciseMedia extends Model
 {
     use SoftDeletes;
-    
+
     protected $table = '';
 
     protected $fillable = [
-    	'exercise_id',
-    	'media_id'
+        'exercise_id',
+        'media_id',
     ];
 }
