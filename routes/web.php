@@ -1,4 +1,4 @@
 <?php
 
-\Lrcursos\Admin\Services\AdminRoute::auth();
-\Lrcursos\Admin\Services\AdminRoute::admin();
+\Lrcurso\Admin\Services\AdminRoute::auth();
+\Lrcurso\Admin\Services\AdminRoute::admin();

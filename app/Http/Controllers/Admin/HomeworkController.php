@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class HomeworkController extends Controller
 {
     protected static $title = 'Homework';
-    protected static $icon_class = 'fa fa-icon';
+    protected static $icon_class = 'fa fa-book';
 
     public function getModel(): Model
     {

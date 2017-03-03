@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class CategoryController extends Controller
 {
-    protected static $title = 'Category';
-    protected static $icon_class = 'fa fa-icon';
+    protected static $title = 'Categoria';
+    protected static $icon_class = 'fa fa-book';
 
     public function getModel(): Model
     {

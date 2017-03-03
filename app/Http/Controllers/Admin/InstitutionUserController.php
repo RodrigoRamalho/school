@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\IntitutionUser;
+use App\InstitutionUser;
 use Illuminate\Database\Eloquent\Model;
 
-class IntitutionUserController extends Controller
+class InstitutionUserController extends Controller
 {
-    protected static $title = 'IntitutionUser';
-    protected static $icon_class = 'fa fa-icon';
+    protected static $title = 'InstitutionUser';
+    protected static $icon_class = 'fa fa-book';
 
     public function getModel(): Model
     {
-    	return new IntitutionUser();
+    	return new InstitutionUser();
     }
 }

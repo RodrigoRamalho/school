@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\MutlipeChoice;
+use App\MutlipleChoice;
 use Illuminate\Database\Eloquent\Model;
 
-class MutlipeChoiceController extends Controller
+class MutlipleChoiceController extends Controller
 {
-    protected static $title = 'MutlipeChoice';
-    protected static $icon_class = 'fa fa-icon';
+    protected static $title = 'MutlipleChoice';
+    protected static $icon_class = 'fa fa-book';
 
     public function getModel(): Model
     {
-    	return new MutlipeChoice();
+    	return new MutlipleChoice();
     }
 }
